@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="artifacts/jquery.min.js"></script>
+        <link rel="stylesheet" href="artifacts/jquery-ui.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="artifacts/jquery-ui.js"></script>
+    </head>
+    <body>
+        <title>jQuery Dialog Demo</title>
+        <h1 id="title">jQuery Dialog Box Demo</h1>
+        <h3 id="desc">Click the buttons below to demo different kinds of jQuery Dialog boxes.</h3>
+
+        <div id="main">
+            <table id="table">
+                <tr id="bttn-head">
+                    <th>Info Dialog Box</th>
+                    <th>Confirm Dialog Box</th>
+                    <th>Input Dialog Box</th>
+                </tr>
+                <tr id="bttn-row">
+                    <td><button onclick="startJQDiag('info')">Click Me</button></td>
+                    <td><button onclick="startJQDiag('confirm')">Click Me</button></td>
+                    <td><button onclick="startJQDiag('input')">Click Me</button></td>
+                </tr>
+                <tr id="bttn-desc">
+                    <td>This will display a simple information dialog box. Can be used as an Error Dialog and fallback to on error scenario.</td>
+                    <td>This will open a confirmation dialog box. Clicking OK or Cancel will display another dialog to demonstrate callbacks to different functions.</td>
+                    <td>This will display an input dialog box. Whatever value you enter will be fetched and displayed in another dialog box.</td>
+                </tr>
+            </table>
+            <div id="dialog"></div>
+        </div>
+    </body>
+</html>

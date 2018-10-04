@@ -1,0 +1,39 @@
+#title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#desc{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#table{
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+#bttn-head, #bttn-row, #bttn-desc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*jQuery Dialog customization*/
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-widget-content{
+    background-color: #dadada !important;
+}
+
+.ui-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 18px !important;    
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+.ui-dialog-titlebar{
+    background: darkblue !important;
+}
